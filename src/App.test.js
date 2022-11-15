@@ -38,7 +38,7 @@ test("initial conditions", () => {
 
 test("if when checkbox is checked the button disabled status changes", () => {
   render(<App />);
-  const checkbox = screen.getByRole("checkbox");
+  const checkbox = screen.getByRole("checkbox", { name: "Disable button" });
   const colorButton = screen.getByRole("button");
 
   fireEvent.click(checkbox);

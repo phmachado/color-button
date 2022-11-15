@@ -14,9 +14,11 @@ function App() {
         Change to {toggleColor ? "red" : "blue"}
       </button>
       <input
+        id="disable-button-checkbox"
         type="checkbox"
         onClick={() => setToggleDisabled(!toggleDisabled)}
       />
+      <label htmlFor="disable-button-checkbox">Disable button</label>
     </div>
   );
 }
