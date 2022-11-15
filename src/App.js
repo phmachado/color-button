@@ -4,10 +4,12 @@ function App() {
   const [toggleColor, setToggleColor] = useState(false);
   const [toggleDisabled, setToggleDisabled] = useState(false);
 
+  const buttonColor = toggleColor ? "blue" : "red";
+
   return (
     <div>
       <button
-        style={{ backgroundColor: toggleColor ? "blue" : "red" }}
+        style={{ backgroundColor: toggleDisabled ? "gray" : buttonColor }}
         onClick={() => setToggleColor(!toggleColor)}
         disabled={toggleDisabled}
       >
