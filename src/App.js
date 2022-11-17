@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 
+export function replaceCamelWithSpaces(colorName) {
+  return colorName.replace(/\B([A-Z])\B/g, " $1");
+}
+
 function App() {
   const [toggleColor, setToggleColor] = useState(false);
   const [toggleDisabled, setToggleDisabled] = useState(false);
