@@ -4,24 +4,24 @@ Inital project of [Testing React with Jest and React Testing Library (RTL)](http
 
 ## Installation
 
-With npm:
+npm
 ```
 npm install
 ```
 
-With Yarn:
+Yarn
 ```
 yarn
 ```
 
 ## Usage
 
-With npm:
+npm
 ```
 npm start
 ```
 
-With Yarn:
+Yarn
 ```
 yarn start
 ```
