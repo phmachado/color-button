@@ -8,7 +8,7 @@ function App() {
   const [toggleColor, setToggleColor] = useState(false);
   const [toggleDisabled, setToggleDisabled] = useState(false);
 
-  const buttonColor = toggleColor ? "blue" : "red";
+  const buttonColor = toggleColor ? "MidnightBlue" : "MediumVioletRed";
 
   return (
     <div>
@@ -17,7 +17,7 @@ function App() {
         onClick={() => setToggleColor(!toggleColor)}
         disabled={toggleDisabled}
       >
-        Change to {toggleColor ? "red" : "blue"}
+        Change to {toggleColor ? "MediumVioletRed" : "MidnightBlue"}
       </button>
       <input
         id="disable-button-checkbox"
